@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>Chase Rogers</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,159 +17,189 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/landing-page.main.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+  <nav class="navbar navbar-light bg-light static-top sticky shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <a class="navbar-brand" href="#header">CR</a>
+      <a class="navbar-brand" href="#about">About</a>
+      <a class="navbar-brand" href="#portfolio">Portfolio</a>
+      <a class="navbar-brand" href="#skills">Skills</a>
+      <a class="navbar-brand" href="#contact">contact</a>
+      <!-- <a class="btn btn-primary" href="#">Sign In</a>  -->
     </div>
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead text-white text-center">
+  <header class="masthead text-white text-center" id="header">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+          <h1 class="mb-2 title" style="font-size: 5em;">Chase Rogers</h1>
+          <p style="font-size: 2em;">Software Developer</p>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
+  <section class="features-icons bg-light text-center" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
-            </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
-            </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
-            </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-          </div>
+        <div class="col">
+          <p class="">
+        I LOVE technology, from playing videogames, watching movies, listening to music, or surfing the web, it’s become an integral facet of my existence. So, it wasn’t too much of a stretch for me to fall in love with software development. From <span class="bg-dark text-success rounded p-1" style="min-width: 100%;">console.log(“hello world”)</span> to <span class="bg-dark text-success  rounded p-1">); DROP TABLE students;</span> I’ve been engaged and excited by all of the amazing things I can do with even a little bit of time, energy, and effort.
+      </p>
+      <p>
+        I enjoy working on design, but don’t have much of an eye for it. I’ve looked into material design and done some reading on color theory, but I believe that ultimately it comes down to <i>je ne sais quoi</i>, and I’ve been meaning to stock up on <i>sais</i> for a while now.
+      </p>
+      <p>
+        I would argue that front-end development is the most fun because it’s where the cool stuff actually comes into play. You can tell the server(s) what you want and then use that to interact with the user. Getting components to draw and trying to make the application seem like it’s alive to entrance and amaze all who see it!
+      </p>
+      <p>
+        As much fun as the front-end can be, I think the back-end is a load of CRUD! It’s where the application gains a sense of permanence and really makes it feel like it's an actual entity. I love mapping out the complicated relationships, the whole process of thinking out exactly what’s needed, and who is allowed to access what at which routes!
+      </p>
+      <p>
+        Ultimately, I love programming because of the challenge it provides me. Engaging my mind in a worthwhile and complex task. You also can’t beat the high of not testing for a while and then having your code actually somehow work on the first try!
+      </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Image Showcases -->
-  <section class="showcase">
+  <section class="showcase" id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" onclick="openWindow('https://curb-side.herokuapp.com/#/')" style="background-image: url('img/curbsyde.png'); background-size:cover 100% ; background-repeat: no-repeat;"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>Curb-Side</h2>
+          <p class="lead mb-0">Curb-Side is an application that allows businesses to register and create catalogues that customers are then able to use to create and place orders. Which can then be finished at the businesses curb. I worked with three other teammates, we utilized scrum methodologies and constantly used pair programming. I was largely involved with writing the server and the "business" UI of the front end. This is my favorite application that I've worked on by far because of all of the cool things we were able to do. We used sockets to make a chat feature, and implemented GoogleApis and Mongoose GeoJSON to allow users to search for businesses by typing in a location.</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bug-report.png'); background-position: center;" onclick="openWindow('https://bug-report-checkpoint.herokuapp.com/#/')"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Bug Report</h2>
+          <p class="lead mb-0">Bug report is an application that allows users to post bugs, make notes on posted bugs. And the creator of a bug can close it once it has been resolved. The information is stored in an easy to read format that makes obvious who submitted the bug, its status and the last time it was modified which mostly references when it was created. This is one of the earliest full-stack front to back applications I wrote by myself. I had a great deal of fun writing it, and was very proud of the design at the time. Looking back I would try to implement more concepts from material design, but I think this is a good representation of what I was capable of at the time.</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/Keepr.png');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Keepr</h2>
+          <p class="lead mb-0">Keepr allows users to make posts (keeps), and pin them (add them to vaults). This is the single largest appication that I have written by myself, I utilized Vue.js for my client, and .NET and MySQL for the backend, among a number of other technologies. With this application I was given a suite of tests that my server had to pass, in addition to meeting a number of requirements to meet Boise Codeworks' standards. I utilized Auth0 to write a secure login, and put a significant emphasis on authorizing certain SCRUM methods for different data. </p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
+  <section class="testimonials text-center bg-light" id="skills">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+      <h2 class="mb-5">Languages & Technology</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-2 col-4">
+            <img src="img/csharp.png" class="img-fluid m-2">
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+          <div class="col-md-2 col-4">
+            <img src="img/JavaScript.png" class="img-fluid m-2">
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+          <div class="col-md-2 col-4">
+            <img src="img/html.png" class="img-fluid m-2">
           </div>
-        </div>
+          <div class="col-md-2 col-4">
+            <img src="img/CSS.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/mySQL.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/dotnet.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/mongodb.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4 d-flex align-items-center">
+            <img src="img/node.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/Vue.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/bootstrap.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/github.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/figma.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/postman-mock.png" class="img-fluid m-2">
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/vscode.png" class="img-fluid m-2">
+          </div>
       </div>
     </div>
   </section>
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
+  <section class="call-to-action text-white text-center" id="contact">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4">Contact Me!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
             <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <div class="col-4 d-flex flex-column justify-content-center">
+                <a class="text-light" href="tel:2082847052">
+                  <i class="fa fa-5x fa-phone" aria-hidden="true"></i>
+                  <p>
+                    (208) 284-7052
+                  </p>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="text-light d-flex flex-column justify-content-center" href="mailto:chase16rogers@gmail.com">
+                  <i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
+                  <p>
+                    chase16rogers@gmail.com
+                  </p>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="text-light d-flex flex-column justify-content-center" href="img/Chase Rogers Resume (1).pdf" target="_blank">
+                <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
+                <p>My Resume</p>
+              </a>
+              </div>
+              <!-- <div class="col-12 col-md-9 mb-2 mb-md-0">
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
+              </div> -->
+              <!-- <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
+              </div> -->
             </div>
           </form>
-        </div>
+        </div> 
       </div>
     </div>
   </section>
@@ -179,7 +209,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
+          <!-- <ul class="list-inline mb-2">
             <li class="list-inline-item">
               <a href="#">About</a>
             </li>
@@ -195,24 +225,24 @@
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
             </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+          </ul> -->
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Chase Rogers 2021. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              <a href="https://www.linkedin.com/in/chase16rogers/" target="_blank">
+                <i class="fa fa-linkedin-square fa-2x fa-fw" aria-hidden="true"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              <a href="https://github.com/Chase16Rogers" target="_blank">
+                <i class="fa fa-github-square fa-2x fa-fw" aria-hidden="true"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              <a href="https://twitter.com/ChaseRo21727229" target="_blank">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
               </a>
             </li>
           </ul>
@@ -224,7 +254,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
